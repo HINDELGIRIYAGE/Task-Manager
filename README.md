@@ -4,7 +4,7 @@ A simple desktop task manager built with **Python**, **Tkinter** and **SQLite**.
 
 Users can create an account, sort their tasks into categories, set priorities and due dates, and quickly see what is pending, completed or overdue.
 
-![Dashboard](screenshots/02_dashboard.png)
+![TaskFlow demo](screenshots/demo.gif)
 
 ## Features
 
@@ -17,6 +17,8 @@ Users can create an account, sort their tasks into categories, set priorities an
 
 ## Screenshots
 
+![Dashboard](screenshots/02_dashboard.png)
+
 | Login | Edit task |
 |:---:|:---:|
 | ![Login](screenshots/01_login.png) | ![Edit task](screenshots/03_edit_task.png) |
@@ -27,7 +29,7 @@ Users can create an account, sort their tasks into categories, set priorities an
 
 ## How to run
 
-You only need Python 3 — Tkinter and SQLite come with it.
+TaskFlow is a desktop app, so it runs on your computer rather than in the browser. You only need Python 3 — Tkinter and SQLite come with it.
 
 ```bash
 python main.py
